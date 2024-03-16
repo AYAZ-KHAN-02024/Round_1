@@ -1,0 +1,49 @@
+
+ footer{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(220, 250, 226);
+  width: 102vw;
+ } 
+
+ .foot_box{
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+ }
+ .icon{
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+ }
+ .icon i{
+  margin: 8px;
+  font-size: x-large;
+  cursor: pointer;
+ }
+  
+
+  .contact-details{
+    background-color: rgb(250, 224, 224);
+    padding: 10px;
+    text-align: center;
+    width: 101vw;
+  }
+ 
+
+@media (max-width:770px) 
+  { .contact-details{
+    font-size: small;
+  }
+  
+}
